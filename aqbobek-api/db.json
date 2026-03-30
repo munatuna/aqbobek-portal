@@ -1,0 +1,2156 @@
+{
+  "grades": {
+    "STU001": [
+      {
+        "quarter": 1,
+        "name": "1 четверть",
+        "subjects": [
+          {
+            "name": "Алгебра",
+            "average": 9.71,
+            "formatives": [
+              {
+                "value": 10,
+                "date": "2025-09-22"
+              },
+              {
+                "value": 10,
+                "date": "2025-09-23"
+              },
+              {
+                "value": 8,
+                "date": "2025-09-29"
+              },
+              {
+                "value": 10,
+                "date": "2025-10-02"
+              },
+              {
+                "value": 10,
+                "date": "2025-10-07"
+              },
+              {
+                "value": 10,
+                "date": "2025-10-20"
+              },
+              {
+                "value": 10,
+                "date": "2025-10-21"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 14,
+                "maxValue": 15,
+                "percent": 93
+              },
+              {
+                "type": "СОР",
+                "value": 12,
+                "maxValue": 12,
+                "percent": 100
+              },
+              {
+                "type": "СОЧ",
+                "value": 23,
+                "maxValue": 25,
+                "percent": 92
+              }
+            ],
+            "finalMark": "5",
+            "absences": 2,
+            "lateCount": 1
+          },
+          {
+            "name": "Всемирная история",
+            "average": null,
+            "formatives": [],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 11,
+                "maxValue": 12,
+                "percent": 92
+              }
+            ],
+            "finalMark": null,
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "Геометрия",
+            "average": 9.75,
+            "formatives": [
+              {
+                "value": 10,
+                "date": "2025-09-12"
+              },
+              {
+                "value": 10,
+                "date": "2025-09-23"
+              },
+              {
+                "value": 9,
+                "date": "2025-09-26"
+              },
+              {
+                "value": 10,
+                "date": "2025-10-17"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 13,
+                "maxValue": 16,
+                "percent": 81
+              },
+              {
+                "type": "СОЧ",
+                "value": 19,
+                "maxValue": 20,
+                "percent": 95
+              }
+            ],
+            "finalMark": "5",
+            "absences": 1,
+            "lateCount": 0
+          },
+          {
+            "name": "Английский язык",
+            "average": 9.67,
+            "formatives": [
+              {
+                "value": 10,
+                "date": "2025-09-24"
+              },
+              {
+                "value": 10,
+                "date": "2025-10-01"
+              },
+              {
+                "value": 9,
+                "date": "2025-10-07"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 17,
+                "maxValue": 20,
+                "percent": 85
+              },
+              {
+                "type": "СОР",
+                "value": 18,
+                "maxValue": 20,
+                "percent": 90
+              },
+              {
+                "type": "СОЧ",
+                "value": 21,
+                "maxValue": 24,
+                "percent": 88
+              }
+            ],
+            "finalMark": "5",
+            "absences": 6,
+            "lateCount": 0
+          },
+          {
+            "name": "Информатика",
+            "average": 10.0,
+            "formatives": [
+              {
+                "value": 10,
+                "date": "2025-09-18"
+              },
+              {
+                "value": 10,
+                "date": "2025-09-23"
+              },
+              {
+                "value": 10,
+                "date": "2025-10-07"
+              },
+              {
+                "value": 10,
+                "date": "2025-10-14"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 18,
+                "maxValue": 20,
+                "percent": 90
+              },
+              {
+                "type": "СОЧ",
+                "value": 25,
+                "maxValue": 25,
+                "percent": 100
+              }
+            ],
+            "finalMark": "5",
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "История Казахстана",
+            "average": 8.5,
+            "formatives": [
+              {
+                "value": 8,
+                "date": "2025-09-17"
+              },
+              {
+                "value": 9,
+                "date": "2025-10-15"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 11,
+                "maxValue": 13,
+                "percent": 85
+              }
+            ],
+            "finalMark": null,
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "Казахский язык",
+            "average": 9.25,
+            "formatives": [
+              {
+                "value": 8,
+                "date": "2025-09-26"
+              },
+              {
+                "value": 9,
+                "date": "2025-10-01"
+              },
+              {
+                "value": 10,
+                "date": "2025-10-09"
+              },
+              {
+                "value": 10,
+                "date": "2025-10-10"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 13,
+                "maxValue": 15,
+                "percent": 87
+              },
+              {
+                "type": "СОР",
+                "value": 13,
+                "maxValue": 15,
+                "percent": 87
+              },
+              {
+                "type": "СОЧ",
+                "value": 25,
+                "maxValue": 30,
+                "percent": 83
+              }
+            ],
+            "finalMark": "5",
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "НВиТП",
+            "average": null,
+            "formatives": [],
+            "summatives": [],
+            "finalMark": null,
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "Основы права",
+            "average": 8.5,
+            "formatives": [
+              {
+                "value": 8,
+                "date": "2025-09-16"
+              },
+              {
+                "value": 9,
+                "date": "2025-09-30"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 11,
+                "maxValue": 11,
+                "percent": 100
+              }
+            ],
+            "finalMark": null,
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "Русская литература",
+            "average": 9.2,
+            "formatives": [
+              {
+                "value": 9,
+                "date": "2025-09-15"
+              },
+              {
+                "value": 9,
+                "date": "2025-09-19"
+              },
+              {
+                "value": 9,
+                "date": "2025-09-29"
+              },
+              {
+                "value": 10,
+                "date": "2025-10-06"
+              },
+              {
+                "value": 9,
+                "date": "2025-10-10"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 9,
+                "maxValue": 10,
+                "percent": 90
+              },
+              {
+                "type": "СОР",
+                "value": 11,
+                "maxValue": 12,
+                "percent": 92
+              },
+              {
+                "type": "СОЧ",
+                "value": 23,
+                "maxValue": 25,
+                "percent": 92
+              }
+            ],
+            "finalMark": "5",
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "Русский язык",
+            "average": 8.5,
+            "formatives": [
+              {
+                "value": 8,
+                "date": "2025-09-18"
+              },
+              {
+                "value": 9,
+                "date": "2025-09-25"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 9,
+                "maxValue": 10,
+                "percent": 90
+              }
+            ],
+            "finalMark": null,
+            "absences": 1,
+            "lateCount": 0
+          },
+          {
+            "name": "Физика",
+            "average": 9.0,
+            "formatives": [
+              {
+                "value": 9,
+                "date": "2025-09-24"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 15,
+                "maxValue": 20,
+                "percent": 75
+              },
+              {
+                "type": "СОР",
+                "value": 9,
+                "maxValue": 10,
+                "percent": 90
+              },
+              {
+                "type": "СОЧ",
+                "value": 26,
+                "maxValue": 30,
+                "percent": 87
+              }
+            ],
+            "finalMark": "5",
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "Физкультура",
+            "average": null,
+            "formatives": [],
+            "summatives": [],
+            "finalMark": "ЗЧ",
+            "absences": 2,
+            "lateCount": 1
+          },
+          {
+            "name": "Химия",
+            "average": 8.88,
+            "formatives": [
+              {
+                "value": 8,
+                "date": "2025-09-12"
+              },
+              {
+                "value": 9,
+                "date": "2025-09-19"
+              },
+              {
+                "value": 10,
+                "date": "2025-09-29"
+              },
+              {
+                "value": 9,
+                "date": "2025-10-06"
+              },
+              {
+                "value": 8,
+                "date": "2025-10-10"
+              },
+              {
+                "value": 10,
+                "date": "2025-10-13"
+              },
+              {
+                "value": 9,
+                "date": "2025-10-14"
+              },
+              {
+                "value": 8,
+                "date": "2025-10-20"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 8,
+                "maxValue": 13,
+                "percent": 62
+              },
+              {
+                "type": "СОР",
+                "value": 11,
+                "maxValue": 12,
+                "percent": 92
+              },
+              {
+                "type": "СОЧ",
+                "value": 26,
+                "maxValue": 30,
+                "percent": 87
+              }
+            ],
+            "finalMark": "5",
+            "absences": 1,
+            "lateCount": 0
+          }
+        ]
+      },
+      {
+        "quarter": 2,
+        "name": "2 четверть",
+        "subjects": [
+          {
+            "name": "Алгебра",
+            "average": 8.64,
+            "formatives": [
+              {
+                "value": 6,
+                "date": "2025-11-17"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-20"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-24"
+              },
+              {
+                "value": 10,
+                "date": "2025-11-25"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-26"
+              },
+              {
+                "value": 6,
+                "date": "2025-11-27"
+              },
+              {
+                "value": 8,
+                "date": "2025-12-01"
+              },
+              {
+                "value": 9,
+                "date": "2025-12-02"
+              },
+              {
+                "value": 9,
+                "date": "2025-12-08"
+              },
+              {
+                "value": 10,
+                "date": "2025-12-22"
+              },
+              {
+                "value": 10,
+                "date": "2025-12-23"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 9,
+                "maxValue": 17,
+                "percent": 53
+              },
+              {
+                "type": "СОР",
+                "value": 17,
+                "maxValue": 17,
+                "percent": 100
+              },
+              {
+                "type": "СОЧ",
+                "value": 23,
+                "maxValue": 25,
+                "percent": 92
+              }
+            ],
+            "finalMark": "5",
+            "absences": 10,
+            "lateCount": 0
+          },
+          {
+            "name": "Всемирная история",
+            "average": 10.0,
+            "formatives": [
+              {
+                "value": 10,
+                "date": "2025-12-19"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 12,
+                "maxValue": 14,
+                "percent": 86
+              }
+            ],
+            "finalMark": "5",
+            "absences": 1,
+            "lateCount": 0
+          },
+          {
+            "name": "Геометрия",
+            "average": 9.0,
+            "formatives": [
+              {
+                "value": 9,
+                "date": "2025-11-25"
+              },
+              {
+                "value": 9,
+                "date": "2025-12-19"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 11,
+                "maxValue": 14,
+                "percent": 79
+              },
+              {
+                "type": "СОЧ",
+                "value": 17,
+                "maxValue": 20,
+                "percent": 85
+              }
+            ],
+            "finalMark": "5",
+            "absences": 7,
+            "lateCount": 0
+          },
+          {
+            "name": "Английский язык",
+            "average": 9.12,
+            "formatives": [
+              {
+                "value": 9,
+                "date": "2025-11-13"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-19"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-20"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-25"
+              },
+              {
+                "value": 8,
+                "date": "2025-11-27"
+              },
+              {
+                "value": 10,
+                "date": "2025-12-02"
+              },
+              {
+                "value": 9,
+                "date": "2025-12-17"
+              },
+              {
+                "value": 10,
+                "date": "2025-12-23"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 10,
+                "maxValue": 12,
+                "percent": 83
+              },
+              {
+                "type": "СОР",
+                "value": 12,
+                "maxValue": 12,
+                "percent": 100
+              },
+              {
+                "type": "СОЧ",
+                "value": 22,
+                "maxValue": 24,
+                "percent": 92
+              }
+            ],
+            "finalMark": "5",
+            "absences": 8,
+            "lateCount": 1
+          },
+          {
+            "name": "Информатика",
+            "average": 9.56,
+            "formatives": [
+              {
+                "value": 10,
+                "date": "2025-11-04"
+              },
+              {
+                "value": 10,
+                "date": "2025-11-11"
+              },
+              {
+                "value": 10,
+                "date": "2025-11-18"
+              },
+              {
+                "value": 10,
+                "date": "2025-11-20"
+              },
+              {
+                "value": 10,
+                "date": "2025-11-25"
+              },
+              {
+                "value": 10,
+                "date": "2025-11-27"
+              },
+              {
+                "value": 10,
+                "date": "2025-12-02"
+              },
+              {
+                "value": 7,
+                "date": "2025-12-04"
+              },
+              {
+                "value": 9,
+                "date": "2025-12-25"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 13,
+                "maxValue": 13,
+                "percent": 100
+              },
+              {
+                "type": "СОР",
+                "value": 10,
+                "maxValue": 10,
+                "percent": 100
+              },
+              {
+                "type": "СОЧ",
+                "value": 22,
+                "maxValue": 25,
+                "percent": 88
+              }
+            ],
+            "finalMark": "5",
+            "absences": 2,
+            "lateCount": 0
+          },
+          {
+            "name": "История Казахстана",
+            "average": null,
+            "formatives": [],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 10,
+                "maxValue": 11,
+                "percent": 91
+              }
+            ],
+            "finalMark": "5",
+            "absences": 2,
+            "lateCount": 0
+          },
+          {
+            "name": "Казахский язык",
+            "average": 8.92,
+            "formatives": [
+              {
+                "value": 9,
+                "date": "2025-11-05"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-07"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-12"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-13"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-19"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-20"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-21"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-26"
+              },
+              {
+                "value": 10,
+                "date": "2025-11-27"
+              },
+              {
+                "value": 9,
+                "date": "2025-12-10"
+              },
+              {
+                "value": 8,
+                "date": "2025-12-11"
+              },
+              {
+                "value": 8,
+                "date": "2025-12-12"
+              },
+              {
+                "value": 9,
+                "date": "2025-12-24"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 12,
+                "maxValue": 15,
+                "percent": 80
+              },
+              {
+                "type": "СОР",
+                "value": 10,
+                "maxValue": 15,
+                "percent": 67
+              },
+              {
+                "type": "СОЧ",
+                "value": 27,
+                "maxValue": 30,
+                "percent": 90
+              }
+            ],
+            "finalMark": "5",
+            "absences": 2,
+            "lateCount": 0
+          },
+          {
+            "name": "НВиТП",
+            "average": null,
+            "formatives": [],
+            "summatives": [],
+            "finalMark": "ЗЧ",
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "Основы права",
+            "average": null,
+            "formatives": [],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 12,
+                "maxValue": 12,
+                "percent": 100
+              }
+            ],
+            "finalMark": "5",
+            "absences": 2,
+            "lateCount": 0
+          },
+          {
+            "name": "Русская литература",
+            "average": 9.0,
+            "formatives": [
+              {
+                "value": 9,
+                "date": "2025-11-03"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-17"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-28"
+              },
+              {
+                "value": 9,
+                "date": "2025-12-08"
+              },
+              {
+                "value": 9,
+                "date": "2025-12-22"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 14,
+                "maxValue": 15,
+                "percent": 93
+              },
+              {
+                "type": "СОР",
+                "value": 11,
+                "maxValue": 12,
+                "percent": 92
+              },
+              {
+                "type": "СОЧ",
+                "value": 20,
+                "maxValue": 25,
+                "percent": 80
+              }
+            ],
+            "finalMark": "5",
+            "absences": 5,
+            "lateCount": 0
+          },
+          {
+            "name": "Русский язык",
+            "average": 9.0,
+            "formatives": [
+              {
+                "value": 9,
+                "date": "2025-11-13"
+              },
+              {
+                "value": 9,
+                "date": "2025-12-04"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 9,
+                "maxValue": 10,
+                "percent": 90
+              }
+            ],
+            "finalMark": "5",
+            "absences": 2,
+            "lateCount": 0
+          },
+          {
+            "name": "Физика",
+            "average": 8.8,
+            "formatives": [
+              {
+                "value": 9,
+                "date": "2025-11-18"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-24"
+              },
+              {
+                "value": 7,
+                "date": "2025-12-01"
+              },
+              {
+                "value": 9,
+                "date": "2025-12-08"
+              },
+              {
+                "value": 10,
+                "date": "2025-12-22"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 15,
+                "maxValue": 16,
+                "percent": 94
+              },
+              {
+                "type": "СОР",
+                "value": 15,
+                "maxValue": 16,
+                "percent": 94
+              },
+              {
+                "type": "СОР",
+                "value": 14,
+                "maxValue": 16,
+                "percent": 88
+              },
+              {
+                "type": "СОЧ",
+                "value": 25,
+                "maxValue": 30,
+                "percent": 83
+              }
+            ],
+            "finalMark": "5",
+            "absences": 7,
+            "lateCount": 0
+          },
+          {
+            "name": "Физкультура",
+            "average": null,
+            "formatives": [],
+            "summatives": [],
+            "finalMark": "ЗЧ",
+            "absences": 4,
+            "lateCount": 0
+          },
+          {
+            "name": "Химия",
+            "average": 9.56,
+            "formatives": [
+              {
+                "value": 9,
+                "date": "2025-11-07"
+              },
+              {
+                "value": 10,
+                "date": "2025-11-11"
+              },
+              {
+                "value": 10,
+                "date": "2025-11-17"
+              },
+              {
+                "value": 9,
+                "date": "2025-11-21"
+              },
+              {
+                "value": 8,
+                "date": "2025-11-25"
+              },
+              {
+                "value": 10,
+                "date": "2025-12-02"
+              },
+              {
+                "value": 10,
+                "date": "2025-12-08"
+              },
+              {
+                "value": 10,
+                "date": "2025-12-15"
+              },
+              {
+                "value": 10,
+                "date": "2025-12-22"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 14,
+                "maxValue": 15,
+                "percent": 93
+              },
+              {
+                "type": "СОР",
+                "value": 10,
+                "maxValue": 15,
+                "percent": 67
+              },
+              {
+                "type": "СОР",
+                "value": 14,
+                "maxValue": 15,
+                "percent": 93
+              },
+              {
+                "type": "СОЧ",
+                "value": 26,
+                "maxValue": 30,
+                "percent": 87
+              }
+            ],
+            "finalMark": "5",
+            "absences": 3,
+            "lateCount": 0
+          }
+        ]
+      },
+      {
+        "quarter": 3,
+        "name": "3 четверть",
+        "subjects": [
+          {
+            "name": "Алгебра",
+            "average": 9.21,
+            "formatives": [
+              {
+                "value": 10,
+                "date": "2026-01-13"
+              },
+              {
+                "value": 10,
+                "date": "2026-01-19"
+              },
+              {
+                "value": 10,
+                "date": "2026-01-27"
+              },
+              {
+                "value": 8,
+                "date": "2026-02-02"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-10"
+              },
+              {
+                "value": 9,
+                "date": "2026-02-16"
+              },
+              {
+                "value": 8,
+                "date": "2026-02-18"
+              },
+              {
+                "value": 8,
+                "date": "2026-02-20"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-25"
+              },
+              {
+                "value": 9,
+                "date": "2026-03-02"
+              },
+              {
+                "value": 9,
+                "date": "2026-03-06"
+              },
+              {
+                "value": 9,
+                "date": "2026-03-13"
+              },
+              {
+                "value": 9,
+                "date": "2026-03-16"
+              },
+              {
+                "value": 10,
+                "date": "2026-03-18"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 14,
+                "maxValue": 17,
+                "percent": 82
+              },
+              {
+                "type": "СОР",
+                "value": 14,
+                "maxValue": 17,
+                "percent": 82
+              },
+              {
+                "type": "СОР",
+                "value": 16,
+                "maxValue": 17,
+                "percent": 94
+              },
+              {
+                "type": "СОЧ",
+                "value": 20,
+                "maxValue": 25,
+                "percent": 80
+              }
+            ],
+            "finalMark": "5",
+            "absences": 7,
+            "lateCount": 0
+          },
+          {
+            "name": "Всемирная история",
+            "average": null,
+            "formatives": [],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 7,
+                "maxValue": 8,
+                "percent": 88
+              }
+            ],
+            "finalMark": null,
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "Геометрия",
+            "average": 9.29,
+            "formatives": [
+              {
+                "value": 8,
+                "date": "2026-01-13"
+              },
+              {
+                "value": 10,
+                "date": "2026-01-22"
+              },
+              {
+                "value": 9,
+                "date": "2026-02-03"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-17"
+              },
+              {
+                "value": 9,
+                "date": "2026-02-24"
+              },
+              {
+                "value": 9,
+                "date": "2026-03-05"
+              },
+              {
+                "value": 10,
+                "date": "2026-03-17"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 13,
+                "maxValue": 15,
+                "percent": 87
+              },
+              {
+                "type": "СОЧ",
+                "value": 16,
+                "maxValue": 20,
+                "percent": 80
+              }
+            ],
+            "finalMark": "5",
+            "absences": 2,
+            "lateCount": 0
+          },
+          {
+            "name": "Английский язык",
+            "average": 9.4,
+            "formatives": [
+              {
+                "value": 10,
+                "date": "2026-01-13"
+              },
+              {
+                "value": 9,
+                "date": "2026-01-15"
+              },
+              {
+                "value": 9,
+                "date": "2026-01-20"
+              },
+              {
+                "value": 7,
+                "date": "2026-01-29"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-03"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-19"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-25"
+              },
+              {
+                "value": 10,
+                "date": "2026-03-03"
+              },
+              {
+                "value": 10,
+                "date": "2026-03-04"
+              },
+              {
+                "value": 9,
+                "date": "2026-03-12"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 11,
+                "maxValue": 12,
+                "percent": 92
+              },
+              {
+                "type": "СОР",
+                "value": 12,
+                "maxValue": 12,
+                "percent": 100
+              },
+              {
+                "type": "СОЧ",
+                "value": 22,
+                "maxValue": 24,
+                "percent": 92
+              }
+            ],
+            "finalMark": "5",
+            "absences": 5,
+            "lateCount": 0
+          },
+          {
+            "name": "Информатика",
+            "average": 9.36,
+            "formatives": [
+              {
+                "value": 10,
+                "date": "2026-01-08"
+              },
+              {
+                "value": 9,
+                "date": "2026-01-15"
+              },
+              {
+                "value": 10,
+                "date": "2026-01-20"
+              },
+              {
+                "value": 10,
+                "date": "2026-01-22"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-03"
+              },
+              {
+                "value": 8,
+                "date": "2026-02-05"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-17"
+              },
+              {
+                "value": 9,
+                "date": "2026-02-19"
+              },
+              {
+                "value": 8,
+                "date": "2026-02-26"
+              },
+              {
+                "value": 10,
+                "date": "2026-03-05"
+              },
+              {
+                "value": 9,
+                "date": "2026-03-17"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 12,
+                "maxValue": 13,
+                "percent": 92
+              },
+              {
+                "type": "СОР",
+                "value": 14,
+                "maxValue": 14,
+                "percent": 100
+              },
+              {
+                "type": "СОЧ",
+                "value": 25,
+                "maxValue": 25,
+                "percent": 100
+              }
+            ],
+            "finalMark": "5",
+            "absences": 4,
+            "lateCount": 0
+          },
+          {
+            "name": "История Казахстана",
+            "average": 8.0,
+            "formatives": [
+              {
+                "value": 8,
+                "date": "2026-01-14"
+              },
+              {
+                "value": 8,
+                "date": "2026-02-18"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 12,
+                "maxValue": 14,
+                "percent": 86
+              }
+            ],
+            "finalMark": null,
+            "absences": 2,
+            "lateCount": 0
+          },
+          {
+            "name": "Казахский язык",
+            "average": 9.25,
+            "formatives": [
+              {
+                "value": 9,
+                "date": "2026-01-09"
+              },
+              {
+                "value": 10,
+                "date": "2026-01-14"
+              },
+              {
+                "value": 9,
+                "date": "2026-01-15"
+              },
+              {
+                "value": 10,
+                "date": "2026-01-22"
+              },
+              {
+                "value": 9,
+                "date": "2026-01-23"
+              },
+              {
+                "value": 8,
+                "date": "2026-01-28"
+              },
+              {
+                "value": 9,
+                "date": "2026-02-05"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-13"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-18"
+              },
+              {
+                "value": 9,
+                "date": "2026-02-20"
+              },
+              {
+                "value": 8,
+                "date": "2026-02-27"
+              },
+              {
+                "value": 9,
+                "date": "2026-03-04"
+              },
+              {
+                "value": 10,
+                "date": "2026-03-06"
+              },
+              {
+                "value": 10,
+                "date": "2026-03-11"
+              },
+              {
+                "value": 9,
+                "date": "2026-03-13"
+              },
+              {
+                "value": 9,
+                "date": "2026-03-18"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 14,
+                "maxValue": 15,
+                "percent": 93
+              },
+              {
+                "type": "СОР",
+                "value": 13,
+                "maxValue": 15,
+                "percent": 87
+              },
+              {
+                "type": "СОЧ",
+                "value": 27,
+                "maxValue": 30,
+                "percent": 90
+              }
+            ],
+            "finalMark": "5",
+            "absences": 2,
+            "lateCount": 0
+          },
+          {
+            "name": "НВиТП",
+            "average": null,
+            "formatives": [],
+            "summatives": [],
+            "finalMark": null,
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "Основы права",
+            "average": 8.0,
+            "formatives": [
+              {
+                "value": 8,
+                "date": "2026-02-03"
+              },
+              {
+                "value": 8,
+                "date": "2026-02-10"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 10,
+                "maxValue": 11,
+                "percent": 91
+              }
+            ],
+            "finalMark": null,
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "Русская литература",
+            "average": 8.43,
+            "formatives": [
+              {
+                "value": 8,
+                "date": "2026-01-09"
+              },
+              {
+                "value": 8,
+                "date": "2026-01-16"
+              },
+              {
+                "value": 9,
+                "date": "2026-01-26"
+              },
+              {
+                "value": 8,
+                "date": "2026-02-09"
+              },
+              {
+                "value": 8,
+                "date": "2026-02-20"
+              },
+              {
+                "value": 9,
+                "date": "2026-02-27"
+              },
+              {
+                "value": 9,
+                "date": "2026-03-06"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 9,
+                "maxValue": 10,
+                "percent": 90
+              },
+              {
+                "type": "СОР",
+                "value": 9,
+                "maxValue": 10,
+                "percent": 90
+              },
+              {
+                "type": "СОЧ",
+                "value": 22,
+                "maxValue": 25,
+                "percent": 88
+              }
+            ],
+            "finalMark": "5",
+            "absences": 4,
+            "lateCount": 0
+          },
+          {
+            "name": "Русский язык",
+            "average": 8.33,
+            "formatives": [
+              {
+                "value": 8,
+                "date": "2026-01-22"
+              },
+              {
+                "value": 9,
+                "date": "2026-03-05"
+              },
+              {
+                "value": 8,
+                "date": "2026-03-12"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 9,
+                "maxValue": 10,
+                "percent": 90
+              }
+            ],
+            "finalMark": null,
+            "absences": 3,
+            "lateCount": 0
+          },
+          {
+            "name": "Физика",
+            "average": 9.0,
+            "formatives": [
+              {
+                "value": 8,
+                "date": "2026-01-13"
+              },
+              {
+                "value": 10,
+                "date": "2026-01-20"
+              },
+              {
+                "value": 9,
+                "date": "2026-01-23"
+              },
+              {
+                "value": 9,
+                "date": "2026-01-27"
+              },
+              {
+                "value": 9,
+                "date": "2026-02-17"
+              },
+              {
+                "value": 9,
+                "date": "2026-02-20"
+              },
+              {
+                "value": 8,
+                "date": "2026-02-27"
+              },
+              {
+                "value": 10,
+                "date": "2026-03-04"
+              },
+              {
+                "value": 8,
+                "date": "2026-03-06"
+              },
+              {
+                "value": 10,
+                "date": "2026-03-17"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 14,
+                "maxValue": 16,
+                "percent": 88
+              },
+              {
+                "type": "СОР",
+                "value": 17,
+                "maxValue": 20,
+                "percent": 85
+              },
+              {
+                "type": "СОР",
+                "value": 19,
+                "maxValue": 20,
+                "percent": 95
+              },
+              {
+                "type": "СОЧ",
+                "value": 24,
+                "maxValue": 30,
+                "percent": 80
+              }
+            ],
+            "finalMark": "5",
+            "absences": 8,
+            "lateCount": 0
+          },
+          {
+            "name": "Физкультура",
+            "average": null,
+            "formatives": [],
+            "summatives": [],
+            "finalMark": "ЗЧ",
+            "absences": 0,
+            "lateCount": 0
+          },
+          {
+            "name": "Химия",
+            "average": 9.7,
+            "formatives": [
+              {
+                "value": 10,
+                "date": "2026-01-09"
+              },
+              {
+                "value": 10,
+                "date": "2026-01-14"
+              },
+              {
+                "value": 9,
+                "date": "2026-01-27"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-03"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-06"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-10"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-18"
+              },
+              {
+                "value": 10,
+                "date": "2026-02-27"
+              },
+              {
+                "value": 8,
+                "date": "2026-03-06"
+              },
+              {
+                "value": 10,
+                "date": "2026-03-18"
+              }
+            ],
+            "summatives": [
+              {
+                "type": "СОР",
+                "value": 13,
+                "maxValue": 15,
+                "percent": 87
+              },
+              {
+                "type": "СОР",
+                "value": 13,
+                "maxValue": 15,
+                "percent": 87
+              },
+              {
+                "type": "СОР",
+                "value": 14,
+                "maxValue": 15,
+                "percent": 93
+              },
+              {
+                "type": "СОЧ",
+                "value": 28,
+                "maxValue": 30,
+                "percent": 93
+              }
+            ],
+            "finalMark": "5",
+            "absences": 3,
+            "lateCount": 0
+          }
+        ]
+      }
+    ]
+  },
+  "students": [
+    {
+      "id": "STU001",
+      "name": "Айдар Сериков",
+      "email": "aidar@aqbobek.kz",
+      "class": "11А",
+      "role": "student",
+      "parentId": "PAR001",
+      "points": 1480,
+      "rank": 1
+    },
+    {
+      "id": "STU002",
+      "name": "Дана Мухамеджанова",
+      "email": "dana@aqbobek.kz",
+      "class": "11А",
+      "role": "student",
+      "parentId": "PAR002",
+      "points": 1320,
+      "rank": 2
+    },
+    {
+      "id": "STU003",
+      "name": "Тимур Касымов",
+      "email": "timur@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "parentId": "PAR003",
+      "points": 1250,
+      "rank": 3
+    },
+    {
+      "id": "STU004",
+      "name": "Камила Ахметова",
+      "email": "kamila@aqbobek.kz",
+      "class": "10А",
+      "role": "student",
+      "parentId": "PAR004",
+      "points": 1100,
+      "rank": 4
+    },
+    {
+      "id": "STU005",
+      "name": "Ернар Бейсенов",
+      "email": "ernar@aqbobek.kz",
+      "class": "10А",
+      "role": "student",
+      "parentId": "PAR005",
+      "points": 980,
+      "rank": 5
+    },
+    {
+      "id": "STU006",
+      "name": "Асель Нурланова",
+      "email": "asel@aqbobek.kz",
+      "class": "9Б",
+      "role": "student",
+      "parentId": "PAR006",
+      "points": 420,
+      "rank": 28,
+      "atRisk": true,
+      "gpa": 3.2
+    },
+    {
+      "id": "STU007",
+      "name": "Марат Жумабеков",
+      "email": "marat@aqbobek.kz",
+      "class": "9Б",
+      "role": "student",
+      "parentId": "PAR007",
+      "points": 380,
+      "rank": 31,
+      "atRisk": true,
+      "gpa": 3.0
+    },
+    {
+      "id": "STU008",
+      "name": "Алия Сатпаева",
+      "email": "aliya@aqbobek.kz",
+      "class": "10Б",
+      "role": "student",
+      "parentId": "PAR008",
+      "points": 290,
+      "rank": 35,
+      "atRisk": true,
+      "gpa": 2.8
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Science Fair 2025",
+      "date": "2025-04-15",
+      "description": "Ежегодная научная ярмарка. Лучшие проекты учеников школы.",
+      "photo": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=800&q=80",
+      "category": "science"
+    },
+    {
+      "id": 2,
+      "title": "Дебатный турнир",
+      "date": "2025-04-10",
+      "description": "Межшкольный дебатный турнир на казахском и английском языках.",
+      "photo": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80",
+      "category": "competition"
+    },
+    {
+      "id": 3,
+      "title": "Баскетбольный матч vs NIS",
+      "date": "2025-04-08",
+      "description": "Товарищеский матч против Назарбаев Интеллектуальной Школы.",
+      "photo": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80",
+      "category": "sport"
+    },
+    {
+      "id": 4,
+      "title": "День открытых дверей",
+      "date": "2025-04-20",
+      "description": "Приглашаем родителей и будущих учеников познакомиться со школой.",
+      "photo": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
+      "category": "school"
+    },
+    {
+      "id": 5,
+      "title": "Хакатон AIShack 3.0",
+      "date": "2025-04-25",
+      "description": "48-часовой хакатон по разработке школьных EdTech решений.",
+      "photo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=80",
+      "category": "tech"
+    },
+    {
+      "id": 6,
+      "title": "Концерт ко Дню Единства",
+      "date": "2025-05-01",
+      "description": "Праздничный концерт с участием школьного хора.",
+      "photo": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&q=80",
+      "category": "culture"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "Aqbobek Lyceum вошёл в топ-10 школ Астаны",
+      "date": "2025-03-28",
+      "text": "По результатам национального рейтинга качества образования наша школа заняла 7 место среди школ столицы."
+    },
+    {
+      "id": 2,
+      "title": "Новая лаборатория робототехники",
+      "date": "2025-03-20",
+      "text": "Открыта современная лаборатория с 3D-принтерами и наборами Arduino для учеников 7-11 классов."
+    },
+    {
+      "id": 3,
+      "title": "Набор в летнюю школу программирования",
+      "date": "2025-03-15",
+      "text": "Регистрация открыта для учеников 8-10 классов. Курсы Python, Web-разработка и AI."
+    }
+  ],
+  "schedule": {
+    "11А": {
+      "Понедельник": [
+        {
+          "time": "08:30-09:15",
+          "subject": "Алгебра",
+          "teacher": "Нурланов К.Б.",
+          "room": "301"
+        },
+        {
+          "time": "09:25-10:10",
+          "subject": "Английский язык",
+          "teacher": "Smith J.",
+          "room": "205"
+        },
+        {
+          "time": "10:30-11:15",
+          "subject": "Физика",
+          "teacher": "Ахметов Т.С.",
+          "room": "Lab-1"
+        },
+        {
+          "time": "11:25-12:10",
+          "subject": "Казахский язык",
+          "teacher": "Бекова А.М.",
+          "room": "204"
+        },
+        {
+          "time": "12:30-13:15",
+          "subject": "Информатика",
+          "teacher": "Сериков Д.А.",
+          "room": "Comp-2"
+        },
+        {
+          "time": "13:25-14:10",
+          "subject": "Русская литература",
+          "teacher": "Иванова Н.П.",
+          "room": "302"
+        }
+      ],
+      "Вторник": [
+        {
+          "time": "08:30-09:15",
+          "subject": "Геометрия",
+          "teacher": "Нурланов К.Б.",
+          "room": "301"
+        },
+        {
+          "time": "09:25-10:10",
+          "subject": "Химия",
+          "teacher": "Муратова Г.К.",
+          "room": "Lab-2"
+        },
+        {
+          "time": "10:30-11:15",
+          "subject": "История Казахстана",
+          "teacher": "Касымов Е.Н.",
+          "room": "203"
+        },
+        {
+          "time": "11:25-12:10",
+          "subject": "Английский язык",
+          "teacher": "Smith J.",
+          "room": "205"
+        },
+        {
+          "time": "12:30-13:15",
+          "subject": "Физкультура",
+          "teacher": "Жанов Б.Р.",
+          "room": "Gym"
+        },
+        {
+          "time": "13:25-14:10",
+          "subject": "Казахский язык",
+          "teacher": "Бекова А.М.",
+          "room": "204"
+        }
+      ],
+      "Среда": [
+        {
+          "time": "08:30-09:15",
+          "subject": "Алгебра",
+          "teacher": "Нурланов К.Б.",
+          "room": "301"
+        },
+        {
+          "time": "09:25-10:10",
+          "subject": "Физика",
+          "teacher": "Ахметов Т.С.",
+          "room": "Lab-1"
+        },
+        {
+          "time": "10:30-11:15",
+          "subject": "Русский язык",
+          "teacher": "Иванова Н.П.",
+          "room": "302"
+        },
+        {
+          "time": "11:25-12:10",
+          "subject": "Информатика",
+          "teacher": "Сериков Д.А.",
+          "room": "Comp-2"
+        },
+        {
+          "time": "12:30-13:15",
+          "subject": "Химия",
+          "teacher": "Муратова Г.К.",
+          "room": "Lab-2"
+        },
+        {
+          "time": "13:25-14:10",
+          "subject": "Основы права",
+          "teacher": "Токаев М.А.",
+          "room": "201"
+        }
+      ],
+      "Четверг": [
+        {
+          "time": "08:30-09:15",
+          "subject": "Геометрия",
+          "teacher": "Нурланов К.Б.",
+          "room": "301"
+        },
+        {
+          "time": "09:25-10:10",
+          "subject": "Казахский язык",
+          "teacher": "Бекова А.М.",
+          "room": "204"
+        },
+        {
+          "time": "10:30-11:15",
+          "subject": "Английский язык",
+          "teacher": "Smith J.",
+          "room": "205"
+        },
+        {
+          "time": "11:25-12:10",
+          "subject": "Алгебра",
+          "teacher": "Нурланов К.Б.",
+          "room": "301"
+        },
+        {
+          "time": "12:30-13:15",
+          "subject": "Русская литература",
+          "teacher": "Иванова Н.П.",
+          "room": "302"
+        },
+        {
+          "time": "13:25-14:10",
+          "subject": "Всемирная история",
+          "teacher": "Касымов Е.Н.",
+          "room": "203"
+        }
+      ],
+      "Пятница": [
+        {
+          "time": "08:30-09:15",
+          "subject": "Физика",
+          "teacher": "Ахметов Т.С.",
+          "room": "Lab-1"
+        },
+        {
+          "time": "09:25-10:10",
+          "subject": "Химия",
+          "teacher": "Муратова Г.К.",
+          "room": "Lab-2"
+        },
+        {
+          "time": "10:30-11:15",
+          "subject": "Информатика",
+          "teacher": "Сериков Д.А.",
+          "room": "Comp-2"
+        },
+        {
+          "time": "11:25-12:10",
+          "subject": "Казахский язык",
+          "teacher": "Бекова А.М.",
+          "room": "204"
+        },
+        {
+          "time": "12:30-13:15",
+          "subject": "Физкультура",
+          "teacher": "Жанов Б.Р.",
+          "room": "Gym"
+        },
+        {
+          "time": "13:25-14:10",
+          "subject": "НВиТП",
+          "teacher": "Жанов Б.Р.",
+          "room": "103"
+        }
+      ]
+    }
+  },
+  "users": [
+    {
+      "email": "aidar@aqbobek.kz",
+      "password": "demo",
+      "role": "Ученик",
+      "studentId": "STU001",
+      "name": "Айдар Сериков"
+    },
+    {
+      "email": "nurlan.t@aqbobek.kz",
+      "password": "demo",
+      "role": "Учитель",
+      "name": "Нурланов Канат Бейсенович"
+    },
+    {
+      "email": "parent@aqbobek.kz",
+      "password": "demo",
+      "role": "Родитель",
+      "studentId": "STU001",
+      "name": "Серикова Айгуль"
+    },
+    {
+      "email": "admin@aqbobek.kz",
+      "password": "demo",
+      "role": "Админ",
+      "name": "Администратор"
+    }
+  ]
+}
