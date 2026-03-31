@@ -7,20 +7,19 @@ const MENU = {
     { label: "Оценки", path: "/student/grades", icon: "▦" },
     { label: "Рейтинг", path: "/student/ranking", icon: "▲" },
     { label: "AI Наставник", path: "/student/ai", icon: "◈" },
+    { label: "Стенгазета", path: "/kiosk", icon: "▣" },
   ],
   "Учитель": [
     { label: "Дашборд", path: "/teacher", icon: "◻" },
-    { label: "Ученики", path: "/teacher/students", icon: "▦" },
-    { label: "Зона риска", path: "/teacher/risk", icon: "▼" },
+    { label: "Стенгазета", path: "/kiosk", icon: "▣" },
   ],
   "Родитель": [
     { label: "Дашборд", path: "/parent", icon: "◻" },
-    { label: "Динамика", path: "/parent/progress", icon: "▲" },
+    { label: "Стенгазета", path: "/kiosk", icon: "▣" },
   ],
   "Админ": [
     { label: "Дашборд", path: "/admin", icon: "◻" },
     { label: "Аналитика", path: "/admin/analytics", icon: "▦" },
-    { label: "Новости", path: "/admin/news", icon: "◈" },
     { label: "Стенгазета", path: "/kiosk", icon: "▣" },
   ],
 };
@@ -175,8 +174,7 @@ export default function Layout({ children }) {
             </button>
           </div>
         </aside>
-
-        {/* Main content */}
+        
         <main
           style={{
             flex: 1,

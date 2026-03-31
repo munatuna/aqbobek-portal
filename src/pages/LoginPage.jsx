@@ -27,7 +27,7 @@ export default function LoginPage() {
     try {
       const data = await apiLogin(email, password);
       const u = data.user;
-      login(u.role, u.email, u.studentId, u.name);
+      login(u.role, u.email, u.studentId, u.name, u.class);
       const redirect = DEMO_ACCOUNTS.find((a) => a.role === u.role)?.redirect || "/student";
       navigate(redirect);
     } catch (err) {

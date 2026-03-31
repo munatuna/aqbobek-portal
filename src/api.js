@@ -1,10 +1,5 @@
-// ============================================================
-// Aqbobek Portal — API Client
-// Все запросы к бэкенду в одном месте.
-// При подключении реального BilimClass — просто поменять BASE_URL
-// ============================================================
-
 const BASE_URL = "http://localhost:3001/api";
+
 
 async function request(endpoint) {
   const res = await fetch(`${BASE_URL}${endpoint}`);
@@ -25,10 +20,10 @@ async function post(endpoint, body) {
   return res.json();
 }
 
-// === AUTH ===
+// auth
 export const login = (email, password) => post("/auth/login", { email, password });
 
-// === BILIMCLASS (оценки, расписание) ===
+// bilimclass
 export const getGrades = (studentId, quarter) =>
   request(`/bilimclass/grades/${studentId}${quarter ? `?quarter=${quarter}` : ""}`);
 
@@ -41,7 +36,7 @@ export const getSchedule = (classId, day) =>
 export const getAnalytics = (studentId) =>
   request(`/bilimclass/analytics/${studentId}`);
 
-// === SCHOOL ===
+// school
 export const getStudents = (params) => {
   const query = new URLSearchParams(params).toString();
   return request(`/school/students${query ? `?${query}` : ""}`);
@@ -49,8 +44,8 @@ export const getStudents = (params) => {
 
 export const getStudent = (id) => request(`/school/students/${id}`);
 
-export const getRanking = (limit) =>
-  request(`/school/ranking${limit ? `?limit=${limit}` : ""}`);
+export const getRanking = (cls, grade) =>
+  request(`/school/ranking${cls ? `?class=${encodeURIComponent(cls)}` : grade ? `?grade=${encodeURIComponent(grade)}` : ""}`);
 
 export const getAtRiskStudents = () => request("/school/at-risk");
 
@@ -58,5 +53,15 @@ export const getEvents = () => request("/school/events");
 
 export const getNews = () => request("/school/news");
 
-// === KIOSK ===
+//kiosk
 export const getKioskFeed = () => request("/kiosk/feed");
+
+//bilimpath 
+export const getAIContext = (studentId) => request(`/ai/context/${studentId}`);
+export const aiChat = (studentId, message, history) =>
+  post("/ai/chat", { studentId, message, history });
+
+export const postNews = (data) => post("/school/news", data);
+export const deleteNews = (id) => fetch(`${BASE_URL}/school/news/${id}`, { method: "DELETE" }).then(r => r.json());
+export const postEvent = (data) => post("/school/events", data);
+export const deleteEvent = (id) => fetch(`${BASE_URL}/school/events/${id}`, { method: "DELETE" }).then(r => r.json());

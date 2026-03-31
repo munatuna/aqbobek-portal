@@ -1,16 +1,81 @@
-# React + Vite
+# Aqbobek Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Школьный портал для Aqbobek International School (Астана, Казахстан).
 
-Currently, two official plugins are available:
+Создан в рамках хакатона JasImpact.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Что делает
 
-## React Compiler
+Единая платформа для всех участников учебного процесса:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Ученик** — дашборд с оценками и динамикой по четвертям, AI-наставник BilimPath даёт персональные советы на основе реальных данных
+- **Учитель** — рейтинг класса 11А по среднему баллу, ученики в зоне риска выделены
+- **Родитель** — успеваемость ребёнка в реальном времени
+- **Админ** — публикация новостей и мероприятий, которые сразу появляются на школьной стенгазете
 
-## Expanding the ESLint configuration
+## Стек
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend:** React 18, Vite, React Router v6, Context API
+
+**Backend:** Node.js, Express, db.json (файловая БД с персистентностью)
+
+**ИИ:** Google Gemini 2.0 Flash — при недоступности API работает умный fallback на основе анализа оценок
+
+## Запуск
+
+**1. Клонировать репозиторий**
+```bash
+git clone https://github.com/munatuna/aqbobek-portal.git
+cd aqbobek-portal
+```
+
+**2. Запустить API сервер**
+```bash
+cd aqbobek-api
+npm install
+node server.js
+```
+
+**3. Запустить фронтенд** (в отдельном терминале)
+```bash
+cd ..
+npm install
+npm run dev
+```
+
+Открыть `http://localhost:5173`
+
+## Демо-аккаунты
+
+| Роль | Email | Пароль |
+|------|-------|--------|
+| Ученик | aidar@aqbobek.kz | demo |
+| Учитель | nurlan.t@aqbobek.kz | demo |
+| Родитель | parent@aqbobek.kz | demo |
+| Админ | admin@aqbobek.kz | demo |
+
+## API ключ Gemini
+
+Для работы AI-наставника добавь ключ в `aqbobek-api/server.js` строка 10:
+
+```js
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "ТВОЙ_КЛЮЧ";
+```
+
+Бесплатный ключ: [aistudio.google.com](https://aistudio.google.com).
+Без ключа BilimPath работает на основе анализа оценок без Gemini.
+
+## Структура проекта
+
+```
+aqbobek-portal/
+├── aqbobek-api/        # Express бэкенд
+│   ├── server.js       # API маршруты
+│   ├── bilimpath.js    # Логика AI-наставника
+│   └── db.json         # Данные (ученики, оценки, новости, мероприятия)
+└── src/
+    ├── pages/          # Дашборды по ролям
+    ├── components/     # Layout, сайдбар
+    ├── context/        # Auth контекст
+    └── api.js          # API клиент
+```

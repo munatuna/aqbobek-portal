@@ -57,7 +57,7 @@ export default function KioskPage() {
       el.removeEventListener("touchend", resume);
       el.removeEventListener("wheel", onWheel);
     };
-  }, []);
+  }, [feed]);
 
   const formatTime = (d) => d.toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" });
   const formatDate = (d) => d.toLocaleDateString("ru-RU", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
@@ -71,7 +71,7 @@ export default function KioskPage() {
       <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
       <style>{`
         @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+        @keyframes marquee { from { transform: translateX(100vw); } to { transform: translateX(-100%); } }
         * { box-sizing: border-box; margin: 0; padding: 0; }
         .kiosk-scroll::-webkit-scrollbar { display: none; }
         .kiosk-scroll { -ms-overflow-style: none; scrollbar-width: none; }
@@ -143,11 +143,6 @@ export default function KioskPage() {
           <div style={{ height: 100 }} />
         </div>
 
-        <div style={{ padding: "12px 40px", background: "#570589", fontSize: 14, fontWeight: 500, flexShrink: 0, overflow: "hidden", whiteSpace: "nowrap" }}>
-          <div style={{ animation: "pulse 3s ease-in-out infinite" }}>
-            Лидер рейтинга — {topStudents[0]?.name} ({topStudents[0]?.points} баллов) --- Ближайшее: {events[0]?.title} — {events[0]?.date} --- {news[0]?.title}
-          </div>
-        </div>
       </div>
     </>
   );

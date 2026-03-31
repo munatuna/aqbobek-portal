@@ -1,4 +1,4 @@
-// ===== РЕАЛЬНЫЕ ДАННЫЕ ИЗ КУНДЕЛИК =====
+//mock and real data from my kundelik 
 
 export const MY_GRADES = [
   {
@@ -234,7 +234,7 @@ export const WEAK_SUMMATIVES = MY_GRADES
   .filter(sm => sm.percent < 80);
 
 
-// ===== ДАННЫЕ ШКОЛЫ =====
+
 
 export const STUDENTS = [
   { id: 1, name: "Айдар Сериков", class: "11А", gpa: 4.8, trend: "up", points: 1480, rank: 1 },

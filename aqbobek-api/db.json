@@ -160,7 +160,7 @@
           },
           {
             "name": "Информатика",
-            "average": 10.0,
+            "average": 10,
             "formatives": [
               {
                 "value": 10,
@@ -377,7 +377,7 @@
           },
           {
             "name": "Физика",
-            "average": 9.0,
+            "average": 9,
             "formatives": [
               {
                 "value": 9,
@@ -559,7 +559,7 @@
           },
           {
             "name": "Всемирная история",
-            "average": 10.0,
+            "average": 10,
             "formatives": [
               {
                 "value": 10,
@@ -580,7 +580,7 @@
           },
           {
             "name": "Геометрия",
-            "average": 9.0,
+            "average": 9,
             "formatives": [
               {
                 "value": 9,
@@ -859,7 +859,7 @@
           },
           {
             "name": "Русская литература",
-            "average": 9.0,
+            "average": 9,
             "formatives": [
               {
                 "value": 9,
@@ -908,7 +908,7 @@
           },
           {
             "name": "Русский язык",
-            "average": 9.0,
+            "average": 9,
             "formatives": [
               {
                 "value": 9,
@@ -1374,7 +1374,7 @@
           },
           {
             "name": "История Казахстана",
-            "average": 8.0,
+            "average": 8,
             "formatives": [
               {
                 "value": 8,
@@ -1501,7 +1501,7 @@
           },
           {
             "name": "Основы права",
-            "average": 8.0,
+            "average": 8,
             "formatives": [
               {
                 "value": 8,
@@ -1612,7 +1612,7 @@
           },
           {
             "name": "Физика",
-            "average": 9.0,
+            "average": 9,
             "formatives": [
               {
                 "value": 8,
@@ -1777,88 +1777,872 @@
     {
       "id": "STU001",
       "name": "Айдар Сериков",
-      "email": "aidar@aqbobek.kz",
+      "email": "айдар@aqbobek.kz",
       "class": "11А",
       "role": "student",
-      "parentId": "PAR001",
-      "points": 1480,
-      "rank": 1
+      "quarterData": {
+        "1": {
+          "average": 9.18,
+          "sorPercent": 88,
+          "composite": 90.3
+        },
+        "2": {
+          "average": 9.16,
+          "sorPercent": 87,
+          "composite": 89.8
+        },
+        "3": {
+          "average": 8.91,
+          "sorPercent": 88,
+          "composite": 88.7
+        }
+      },
+      "currentAvg": 8.91,
+      "currentSorPct": 88,
+      "compositeScore": 88.7,
+      "classRank": 5,
+      "parallelRank": 8
     },
     {
       "id": "STU002",
       "name": "Дана Мухамеджанова",
-      "email": "dana@aqbobek.kz",
+      "email": "дана@aqbobek.kz",
       "class": "11А",
       "role": "student",
-      "parentId": "PAR002",
-      "points": 1320,
-      "rank": 2
+      "quarterData": {
+        "1": {
+          "average": 9.03,
+          "sorPercent": 65,
+          "composite": 80.2
+        },
+        "2": {
+          "average": 8.51,
+          "sorPercent": 61,
+          "composite": 75.5
+        },
+        "3": {
+          "average": 8.97,
+          "sorPercent": 60,
+          "composite": 77.8
+        }
+      },
+      "currentAvg": 8.97,
+      "currentSorPct": 60,
+      "compositeScore": 77.8,
+      "classRank": 11,
+      "parallelRank": 21
     },
     {
       "id": "STU003",
       "name": "Тимур Касымов",
-      "email": "timur@aqbobek.kz",
-      "class": "11Б",
+      "email": "тимур@aqbobek.kz",
+      "class": "11А",
       "role": "student",
-      "parentId": "PAR003",
-      "points": 1250,
-      "rank": 3
+      "quarterData": {
+        "1": {
+          "average": 8.18,
+          "sorPercent": 65,
+          "composite": 75.1
+        },
+        "2": {
+          "average": 8.38,
+          "sorPercent": 59,
+          "composite": 73.9
+        },
+        "3": {
+          "average": 8.71,
+          "sorPercent": 72,
+          "composite": 81.1
+        }
+      },
+      "currentAvg": 8.71,
+      "currentSorPct": 72,
+      "compositeScore": 81.1,
+      "classRank": 7,
+      "parallelRank": 14
     },
     {
       "id": "STU004",
       "name": "Камила Ахметова",
-      "email": "kamila@aqbobek.kz",
-      "class": "10А",
+      "email": "камила@aqbobek.kz",
+      "class": "11А",
       "role": "student",
-      "parentId": "PAR004",
-      "points": 1100,
-      "rank": 4
+      "quarterData": {
+        "1": {
+          "average": 7.93,
+          "sorPercent": 74,
+          "composite": 77.2
+        },
+        "2": {
+          "average": 7.88,
+          "sorPercent": 79,
+          "composite": 78.9
+        },
+        "3": {
+          "average": 7.82,
+          "sorPercent": 84,
+          "composite": 80.5
+        }
+      },
+      "currentAvg": 7.82,
+      "currentSorPct": 84,
+      "compositeScore": 80.5,
+      "classRank": 8,
+      "parallelRank": 15
     },
     {
       "id": "STU005",
       "name": "Ернар Бейсенов",
-      "email": "ernar@aqbobek.kz",
-      "class": "10А",
+      "email": "ернар@aqbobek.kz",
+      "class": "11А",
       "role": "student",
-      "parentId": "PAR005",
-      "points": 980,
-      "rank": 5
+      "quarterData": {
+        "1": {
+          "average": 8.24,
+          "sorPercent": 80,
+          "composite": 81.4
+        },
+        "2": {
+          "average": 7.38,
+          "sorPercent": 82,
+          "composite": 77.1
+        },
+        "3": {
+          "average": 7.38,
+          "sorPercent": 81,
+          "composite": 76.7
+        }
+      },
+      "currentAvg": 7.38,
+      "currentSorPct": 81,
+      "compositeScore": 76.7,
+      "classRank": 13,
+      "parallelRank": 23
     },
     {
       "id": "STU006",
-      "name": "Асель Нурланова",
-      "email": "asel@aqbobek.kz",
-      "class": "9Б",
+      "name": "Алия Жумабекова",
+      "email": "алия@aqbobek.kz",
+      "class": "11А",
       "role": "student",
-      "parentId": "PAR006",
-      "points": 420,
-      "rank": 28,
-      "atRisk": true,
-      "gpa": 3.2
+      "quarterData": {
+        "1": {
+          "average": 8.92,
+          "sorPercent": 62,
+          "composite": 78.3
+        },
+        "2": {
+          "average": 9.16,
+          "sorPercent": 71,
+          "composite": 83.4
+        },
+        "3": {
+          "average": 8.27,
+          "sorPercent": 68,
+          "composite": 76.8
+        }
+      },
+      "currentAvg": 8.27,
+      "currentSorPct": 68,
+      "compositeScore": 76.8,
+      "classRank": 12,
+      "parallelRank": 22
     },
     {
       "id": "STU007",
-      "name": "Марат Жумабеков",
-      "email": "marat@aqbobek.kz",
-      "class": "9Б",
+      "name": "Нурсултан Омаров",
+      "email": "нурсултан@aqbobek.kz",
+      "class": "11А",
       "role": "student",
-      "parentId": "PAR007",
-      "points": 380,
-      "rank": 31,
-      "atRisk": true,
-      "gpa": 3.0
+      "quarterData": {
+        "1": {
+          "average": 9.4,
+          "sorPercent": 82,
+          "composite": 89.2
+        },
+        "2": {
+          "average": 8.87,
+          "sorPercent": 87,
+          "composite": 88
+        },
+        "3": {
+          "average": 9.59,
+          "sorPercent": 82,
+          "composite": 90.3
+        }
+      },
+      "currentAvg": 9.59,
+      "currentSorPct": 82,
+      "compositeScore": 90.3,
+      "classRank": 3,
+      "parallelRank": 6
     },
     {
       "id": "STU008",
-      "name": "Алия Сатпаева",
-      "email": "aliya@aqbobek.kz",
-      "class": "10Б",
+      "name": "Айгерим Токаева",
+      "email": "айгерим@aqbobek.kz",
+      "class": "11А",
       "role": "student",
-      "parentId": "PAR008",
-      "points": 290,
-      "rank": 35,
-      "atRisk": true,
-      "gpa": 2.8
+      "quarterData": {
+        "1": {
+          "average": 9.27,
+          "sorPercent": 77,
+          "composite": 86.4
+        },
+        "2": {
+          "average": 9.53,
+          "sorPercent": 74,
+          "composite": 86.8
+        },
+        "3": {
+          "average": 9.05,
+          "sorPercent": 74,
+          "composite": 83.9
+        }
+      },
+      "currentAvg": 9.05,
+      "currentSorPct": 74,
+      "compositeScore": 83.9,
+      "classRank": 6,
+      "parallelRank": 11
+    },
+    {
+      "id": "STU009",
+      "name": "Данияр Сатпаев",
+      "email": "данияр@aqbobek.kz",
+      "class": "11А",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 7.79,
+          "sorPercent": 76,
+          "composite": 77.1
+        },
+        "2": {
+          "average": 7.7,
+          "sorPercent": 79,
+          "composite": 77.8
+        },
+        "3": {
+          "average": 7.62,
+          "sorPercent": 81,
+          "composite": 78.1
+        }
+      },
+      "currentAvg": 7.62,
+      "currentSorPct": 81,
+      "compositeScore": 78.1,
+      "classRank": 10,
+      "parallelRank": 19
+    },
+    {
+      "id": "STU010",
+      "name": "Мадина Нурланова",
+      "email": "мадина@aqbobek.kz",
+      "class": "11А",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 7.23,
+          "sorPercent": 88,
+          "composite": 78.6
+        },
+        "2": {
+          "average": 7.64,
+          "sorPercent": 82,
+          "composite": 78.6
+        },
+        "3": {
+          "average": 7.19,
+          "sorPercent": 82,
+          "composite": 75.9
+        }
+      },
+      "currentAvg": 7.19,
+      "currentSorPct": 82,
+      "compositeScore": 75.9,
+      "classRank": 15,
+      "parallelRank": 28
+    },
+    {
+      "id": "STU011",
+      "name": "Арман Кенжебаев",
+      "email": "арман@aqbobek.kz",
+      "class": "11А",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 9.02,
+          "sorPercent": 88,
+          "composite": 89.3
+        },
+        "2": {
+          "average": 9.66,
+          "sorPercent": 92,
+          "composite": 94.8
+        },
+        "3": {
+          "average": 8.96,
+          "sorPercent": 97,
+          "composite": 92.6
+        }
+      },
+      "currentAvg": 8.96,
+      "currentSorPct": 97,
+      "compositeScore": 92.6,
+      "classRank": 1,
+      "parallelRank": 1
+    },
+    {
+      "id": "STU012",
+      "name": "Самал Ибрагимова",
+      "email": "самал@aqbobek.kz",
+      "class": "11А",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 7.75,
+          "sorPercent": 90,
+          "composite": 82.5
+        },
+        "2": {
+          "average": 7.86,
+          "sorPercent": 94,
+          "composite": 84.8
+        },
+        "3": {
+          "average": 8.36,
+          "sorPercent": 99,
+          "composite": 89.8
+        }
+      },
+      "currentAvg": 8.36,
+      "currentSorPct": 99,
+      "compositeScore": 89.8,
+      "classRank": 4,
+      "parallelRank": 7
+    },
+    {
+      "id": "STU013",
+      "name": "Бекзат Ахметов",
+      "email": "бекзат@aqbobek.kz",
+      "class": "11А",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 9.37,
+          "sorPercent": 86,
+          "composite": 90.6
+        },
+        "2": {
+          "average": 9.52,
+          "sorPercent": 84,
+          "composite": 90.7
+        },
+        "3": {
+          "average": 9.77,
+          "sorPercent": 85,
+          "composite": 92.6
+        }
+      },
+      "currentAvg": 9.77,
+      "currentSorPct": 85,
+      "compositeScore": 92.6,
+      "classRank": 2,
+      "parallelRank": 2
+    },
+    {
+      "id": "STU014",
+      "name": "Жанна Касымова",
+      "email": "жанна@aqbobek.kz",
+      "class": "11А",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 7.72,
+          "sorPercent": 80,
+          "composite": 78.3
+        },
+        "2": {
+          "average": 7.53,
+          "sorPercent": 79,
+          "composite": 76.8
+        },
+        "3": {
+          "average": 7.31,
+          "sorPercent": 81,
+          "composite": 76.3
+        }
+      },
+      "currentAvg": 7.31,
+      "currentSorPct": 81,
+      "compositeScore": 76.3,
+      "classRank": 14,
+      "parallelRank": 24
+    },
+    {
+      "id": "STU015",
+      "name": "Руслан Муратов",
+      "email": "руслан@aqbobek.kz",
+      "class": "11А",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 8.66,
+          "sorPercent": 60,
+          "composite": 76
+        },
+        "2": {
+          "average": 8.66,
+          "sorPercent": 65,
+          "composite": 78
+        },
+        "3": {
+          "average": 8.75,
+          "sorPercent": 67,
+          "composite": 79.3
+        }
+      },
+      "currentAvg": 8.75,
+      "currentSorPct": 67,
+      "compositeScore": 79.3,
+      "classRank": 9,
+      "parallelRank": 17
+    },
+    {
+      "id": "STU016",
+      "name": "Диас Жангиров",
+      "email": "диас@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 6.97,
+          "sorPercent": 84,
+          "composite": 75.4
+        },
+        "2": {
+          "average": 7.76,
+          "sorPercent": 92,
+          "composite": 83.4
+        },
+        "3": {
+          "average": 7.78,
+          "sorPercent": 89,
+          "composite": 82.3
+        }
+      },
+      "currentAvg": 7.78,
+      "currentSorPct": 89,
+      "compositeScore": 82.3,
+      "classRank": 6,
+      "parallelRank": 12
+    },
+    {
+      "id": "STU017",
+      "name": "Аружан Бекенова",
+      "email": "аружан@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 8.79,
+          "sorPercent": 72,
+          "composite": 81.5
+        },
+        "2": {
+          "average": 8.76,
+          "sorPercent": 79,
+          "composite": 84.2
+        },
+        "3": {
+          "average": 8.53,
+          "sorPercent": 67,
+          "composite": 78
+        }
+      },
+      "currentAvg": 8.53,
+      "currentSorPct": 67,
+      "compositeScore": 78,
+      "classRank": 10,
+      "parallelRank": 20
+    },
+    {
+      "id": "STU018",
+      "name": "Максат Тулегенов",
+      "email": "максат@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 8.09,
+          "sorPercent": 83,
+          "composite": 81.7
+        },
+        "2": {
+          "average": 8.47,
+          "sorPercent": 77,
+          "composite": 81.6
+        },
+        "3": {
+          "average": 8.04,
+          "sorPercent": 70,
+          "composite": 76.2
+        }
+      },
+      "currentAvg": 8.04,
+      "currentSorPct": 70,
+      "compositeScore": 76.2,
+      "classRank": 11,
+      "parallelRank": 25
+    },
+    {
+      "id": "STU019",
+      "name": "Динара Сулейменова",
+      "email": "динара@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 9.34,
+          "sorPercent": 83,
+          "composite": 89.2
+        },
+        "2": {
+          "average": 9.98,
+          "sorPercent": 78,
+          "composite": 91.1
+        },
+        "3": {
+          "average": 9.19,
+          "sorPercent": 91,
+          "composite": 91.5
+        }
+      },
+      "currentAvg": 9.19,
+      "currentSorPct": 91,
+      "compositeScore": 91.5,
+      "classRank": 2,
+      "parallelRank": 4
+    },
+    {
+      "id": "STU020",
+      "name": "Алмас Кадыров",
+      "email": "алмас@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 8.91,
+          "sorPercent": 80,
+          "composite": 85.5
+        },
+        "2": {
+          "average": 9.73,
+          "sorPercent": 70,
+          "composite": 86.4
+        },
+        "3": {
+          "average": 9.05,
+          "sorPercent": 78,
+          "composite": 85.5
+        }
+      },
+      "currentAvg": 9.05,
+      "currentSorPct": 78,
+      "compositeScore": 85.5,
+      "classRank": 4,
+      "parallelRank": 9
+    },
+    {
+      "id": "STU021",
+      "name": "Карина Нуржанова",
+      "email": "карина@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 9.91,
+          "sorPercent": 81,
+          "composite": 91.9
+        },
+        "2": {
+          "average": 10,
+          "sorPercent": 80,
+          "composite": 92
+        },
+        "3": {
+          "average": 9.64,
+          "sorPercent": 85,
+          "composite": 91.8
+        }
+      },
+      "currentAvg": 9.64,
+      "currentSorPct": 85,
+      "compositeScore": 91.8,
+      "classRank": 1,
+      "parallelRank": 3
+    },
+    {
+      "id": "STU022",
+      "name": "Темирлан Байжанов",
+      "email": "темирлан@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 7.98,
+          "sorPercent": 82,
+          "composite": 80.7
+        },
+        "2": {
+          "average": 7.78,
+          "sorPercent": 79,
+          "composite": 78.3
+        },
+        "3": {
+          "average": 8.35,
+          "sorPercent": 72,
+          "composite": 78.9
+        }
+      },
+      "currentAvg": 8.35,
+      "currentSorPct": 72,
+      "compositeScore": 78.9,
+      "classRank": 9,
+      "parallelRank": 18
+    },
+    {
+      "id": "STU023",
+      "name": "Аяулым Досмухамедова",
+      "email": "аяулым@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 6.93,
+          "sorPercent": 61,
+          "composite": 66
+        },
+        "2": {
+          "average": 7.56,
+          "sorPercent": 62,
+          "composite": 70.2
+        },
+        "3": {
+          "average": 7.21,
+          "sorPercent": 68,
+          "composite": 70.5
+        }
+      },
+      "currentAvg": 7.21,
+      "currentSorPct": 68,
+      "compositeScore": 70.5,
+      "classRank": 15,
+      "parallelRank": 30
+    },
+    {
+      "id": "STU024",
+      "name": "Ислам Нурпеисов",
+      "email": "ислам@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 8.91,
+          "sorPercent": 85,
+          "composite": 87.5
+        },
+        "2": {
+          "average": 8.61,
+          "sorPercent": 85,
+          "composite": 85.7
+        },
+        "3": {
+          "average": 9.18,
+          "sorPercent": 76,
+          "composite": 85.5
+        }
+      },
+      "currentAvg": 9.18,
+      "currentSorPct": 76,
+      "compositeScore": 85.5,
+      "classRank": 5,
+      "parallelRank": 10
+    },
+    {
+      "id": "STU025",
+      "name": "Жазира Абдрахманова",
+      "email": "жазира@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 7.11,
+          "sorPercent": 97,
+          "composite": 81.5
+        },
+        "2": {
+          "average": 7.23,
+          "sorPercent": 85,
+          "composite": 77.4
+        },
+        "3": {
+          "average": 7.43,
+          "sorPercent": 87,
+          "composite": 79.4
+        }
+      },
+      "currentAvg": 7.43,
+      "currentSorPct": 87,
+      "compositeScore": 79.4,
+      "classRank": 8,
+      "parallelRank": 16
+    },
+    {
+      "id": "STU026",
+      "name": "Санжар Мустафин",
+      "email": "санжар@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 7.47,
+          "sorPercent": 81,
+          "composite": 77.2
+        },
+        "2": {
+          "average": 6.92,
+          "sorPercent": 84,
+          "composite": 75.1
+        },
+        "3": {
+          "average": 7.21,
+          "sorPercent": 82,
+          "composite": 76.1
+        }
+      },
+      "currentAvg": 7.21,
+      "currentSorPct": 82,
+      "compositeScore": 76.1,
+      "classRank": 12,
+      "parallelRank": 26
+    },
+    {
+      "id": "STU027",
+      "name": "Амина Калиева",
+      "email": "амина@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 8.14,
+          "sorPercent": 76,
+          "composite": 79.2
+        },
+        "2": {
+          "average": 8.12,
+          "sorPercent": 77,
+          "composite": 79.5
+        },
+        "3": {
+          "average": 7.73,
+          "sorPercent": 74,
+          "composite": 76
+        }
+      },
+      "currentAvg": 7.73,
+      "currentSorPct": 74,
+      "compositeScore": 76,
+      "classRank": 13,
+      "parallelRank": 27
+    },
+    {
+      "id": "STU028",
+      "name": "Адиль Рахимов",
+      "email": "адиль@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 9.38,
+          "sorPercent": 87,
+          "composite": 91.1
+        },
+        "2": {
+          "average": 9.69,
+          "sorPercent": 84,
+          "composite": 91.7
+        },
+        "3": {
+          "average": 10,
+          "sorPercent": 77,
+          "composite": 90.8
+        }
+      },
+      "currentAvg": 10,
+      "currentSorPct": 77,
+      "compositeScore": 90.8,
+      "classRank": 3,
+      "parallelRank": 5
+    },
+    {
+      "id": "STU029",
+      "name": "Малика Есенова",
+      "email": "малика@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 7.83,
+          "sorPercent": 95,
+          "composite": 85
+        },
+        "2": {
+          "average": 7.85,
+          "sorPercent": 96,
+          "composite": 85.5
+        },
+        "3": {
+          "average": 7.71,
+          "sorPercent": 90,
+          "composite": 82.3
+        }
+      },
+      "currentAvg": 7.71,
+      "currentSorPct": 90,
+      "compositeScore": 82.3,
+      "classRank": 7,
+      "parallelRank": 13
+    },
+    {
+      "id": "STU030",
+      "name": "Нурбек Жаксылыков",
+      "email": "нурбек@aqbobek.kz",
+      "class": "11Б",
+      "role": "student",
+      "quarterData": {
+        "1": {
+          "average": 7.69,
+          "sorPercent": 61,
+          "composite": 70.5
+        },
+        "2": {
+          "average": 7.86,
+          "sorPercent": 61,
+          "composite": 71.6
+        },
+        "3": {
+          "average": 7.16,
+          "sorPercent": 75,
+          "composite": 73
+        }
+      },
+      "currentAvg": 7.16,
+      "currentSorPct": 75,
+      "compositeScore": 73,
+      "classRank": 14,
+      "parallelRank": 29
     }
   ],
   "events": [
@@ -1868,7 +2652,12 @@
       "date": "2025-04-15",
       "description": "Ежегодная научная ярмарка. Лучшие проекты учеников школы.",
       "photo": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=800&q=80",
-      "category": "science"
+      "category": "science",
+      "tags": [
+        "#STEM",
+        "#Наука",
+        "#Математика"
+      ]
     },
     {
       "id": 2,
@@ -1876,7 +2665,12 @@
       "date": "2025-04-10",
       "description": "Межшкольный дебатный турнир на казахском и английском языках.",
       "photo": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&q=80",
-      "category": "competition"
+      "category": "competition",
+      "tags": [
+        "#Языки",
+        "#Гуманитарные",
+        "#Международный"
+      ]
     },
     {
       "id": 3,
@@ -1884,7 +2678,10 @@
       "date": "2025-04-08",
       "description": "Товарищеский матч против Назарбаев Интеллектуальной Школы.",
       "photo": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80",
-      "category": "sport"
+      "category": "sport",
+      "tags": [
+        "#Спорт"
+      ]
     },
     {
       "id": 4,
@@ -1892,7 +2689,11 @@
       "date": "2025-04-20",
       "description": "Приглашаем родителей и будущих учеников познакомиться со школой.",
       "photo": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
-      "category": "school"
+      "category": "school",
+      "tags": [
+        "#Культура",
+        "#Гуманитарные"
+      ]
     },
     {
       "id": 5,
@@ -1900,7 +2701,13 @@
       "date": "2025-04-25",
       "description": "48-часовой хакатон по разработке школьных EdTech решений.",
       "photo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=80",
-      "category": "tech"
+      "category": "tech",
+      "tags": [
+        "#STEM",
+        "#IT",
+        "#Робототехника",
+        "#Математика"
+      ]
     },
     {
       "id": 6,
@@ -1908,27 +2715,57 @@
       "date": "2025-05-01",
       "description": "Праздничный концерт с участием школьного хора.",
       "photo": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&q=80",
-      "category": "culture"
+      "category": "culture",
+      "tags": [
+        "#Культура",
+        "#Гуманитарные"
+      ]
     }
   ],
   "news": [
     {
+      "id": 1774973892140,
+      "title": "лабка открылась",
+      "text": "лаь\n",
+      "date": "2026-03-31"
+    },
+    {
+      "id": 1774973805784,
+      "title": "Тест",
+      "text": "Проверка сохранения",
+      "date": "2026-03-31"
+    },
+    {
       "id": 1,
-      "title": "Aqbobek Lyceum вошёл в топ-10 школ Астаны",
+      "title": "Aqbobek Lyceum вошёл в топ-10 школ Актобе",
       "date": "2025-03-28",
-      "text": "По результатам национального рейтинга качества образования наша школа заняла 7 место среди школ столицы."
+      "text": "По результатам национального рейтинга качества образования наша школа заняла 7 место среди школ города.",
+      "tags": [
+        "#Культура",
+        "#Гуманитарные"
+      ]
     },
     {
       "id": 2,
       "title": "Новая лаборатория робототехники",
       "date": "2025-03-20",
-      "text": "Открыта современная лаборатория с 3D-принтерами и наборами Arduino для учеников 7-11 классов."
+      "text": "Открыта современная лаборатория с 3D-принтерами и наборами Arduino для учеников 7-11 классов.",
+      "tags": [
+        "#STEM",
+        "#Робототехника",
+        "#IT"
+      ]
     },
     {
       "id": 3,
       "title": "Набор в летнюю школу программирования",
       "date": "2025-03-15",
-      "text": "Регистрация открыта для учеников 8-10 классов. Курсы Python, Web-разработка и AI."
+      "text": "Регистрация открыта для учеников 8-10 классов. Курсы Python, Web-разработка и AI.",
+      "tags": [
+        "#STEM",
+        "#IT",
+        "#Математика"
+      ]
     }
   ],
   "schedule": {
@@ -2131,7 +2968,8 @@
       "password": "demo",
       "role": "Ученик",
       "studentId": "STU001",
-      "name": "Айдар Сериков"
+      "name": "Айдар Сериков",
+      "class": "11А"
     },
     {
       "email": "nurlan.t@aqbobek.kz",

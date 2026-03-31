@@ -64,7 +64,7 @@ export default function ParentDashboard() {
         ))}
       </div>
 
-      {/* Quarters comparison */}
+      
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
         <div style={{ background: "#fff", padding: "24px", borderRadius: 2 }}>
           <h2 style={{ fontSize: 17, fontWeight: 600, color: "#1a1625", marginBottom: 16 }}>Предметы — {currentQ?.name}</h2>
