@@ -148,36 +148,78 @@ app.get("/api/kiosk/feed", (req, res) => {
 });
 
 
-// Умный fallback на основе bilimpath — работает без Gemini
+// Fallback — работает без Gemini на основе анализа оценок
 function buildFallbackReply(analysis, message) {
-  const { trends, stressDetected } = analysis;
+  const { trends, stressDetected, careers, matchedItems } = analysis;
   const msg = message.toLowerCase();
+
   const red = trends.filter(t => t.zone === "red");
-  const green = trends.filter(t => t.zone === "green" && t.latestAvg !== null)
+  const green = trends
+    .filter(t => t.zone === "green" && t.latestAvg !== null)
+    .sort((a, b) => (b.latestAvg || 0) - (a.latestAvg || 0));
+  const all = trends
+    .filter(t => t.latestAvg !== null)
     .sort((a, b) => (b.latestAvg || 0) - (a.latestAvg || 0));
 
+  // Стресс/усталость
   if (stressDetected) {
-    return `Слышу тебя — учёба бывает реально тяжёлой.${green[0] ? ` Но смотри: по ${green[0].name} у тебя ${green[0].latestAvg} — это сильно.` : ""} Если совсем давит, поговори со школьным психологом (каб. 108). Расскажи, что конкретно перегружает больше всего?`;
+    return `Слышу тебя. ${green[0] ? `Смотри — по ${green[0].name} у тебя ${green[0].latestAvg}, это реально сильно.` : ""} Попробуй разбить задачи на маленькие шаги и дать себе передышку. Если совсем тяжело, поговори со школьным психологом (каб. 108). Что сейчас давит больше всего?`;
   }
-  if (msg.includes("привет") || msg.includes("здравствуй") || msg.length < 12) {
-    return `Привет! Смотрю твои оценки: ${green.slice(0, 2).map(t => `${t.name} (${t.latestAvg})`).join(", ")}${red.length ? `, стоит подтянуть — ${red.map(t => t.name).join(", ")}` : " — всё выглядит неплохо"}. Чем могу помочь?`;
+
+  // Приветствие
+  if (/^(привет|здравствуй|салем|hi|hello|даров|хай)/.test(msg) || msg.length < 10) {
+    const summary = green.length
+      ? `Сильные стороны: ${green.slice(0, 2).map(t => `${t.name} (${t.latestAvg})`).join(", ")}.`
+      : "";
+    const warn = red.length ? ` Есть снижение по ${red.map(t => t.name).join(", ")}.` : "";
+    return `Привет! ${summary}${warn} Чем могу помочь?`;
   }
-  if (msg.includes("оценк") || msg.includes("успеваем") || msg.includes("предмет")) {
+
+  // Конкретный предмет упомянут
+  const mentionedSubject = all.find(t => msg.includes(t.name.toLowerCase()));
+  if (mentionedSubject) {
+    const t = mentionedSubject;
+    const trend = t.crossSlope > 0.2 ? "растёт" : t.crossSlope < -0.2 ? "падает" : "стабильный";
+    const sor = t.entries[t.entries.length - 1]?.sorPct;
+    return `По ${t.name}: средний балл ${t.latestAvg ?? "н/д"}, тренд — ${trend}${sor !== null && sor !== undefined ? `, СОР/СОЧ ${sor}%` : ""}. ${t.zone === "red" ? "Стоит уделить этому приоритет — разбери слабые темы перед следующим СОР." : t.zone === "green" ? "Хороший результат, продолжай в том же темпе." : "Есть потенциал для роста — стабильность хорошо, но можно выше."}`;
+  }
+
+  // Профориентация / профессия
+  if (/профессия|профориент|куда поступ|специальност|карьер|университет|вуз|факульт/.test(msg)) {
+    return `По твоим оценкам вижу склонность к: ${careers.slice(0, 4).join(", ")}. ${green[0] ? `Особенно выделяется ${green[0].name} (${green[0].latestAvg}) — это может стать твоей базой.` : ""} Какое направление интересует больше всего?`;
+  }
+
+  // Робототехника, физика, IT, STEM темы
+  if (/робот|физик|програм|it\b|информат|stem|инженер|разработ|код|it/.test(msg)) {
+    const stemSubjects = all.filter(t => t.tags && (t.tags.includes("#STEM") || t.tags.includes("#IT") || t.tags.includes("#Робототехника")));
+    if (stemSubjects.length) {
+      return `По STEM-предметам у тебя: ${stemSubjects.map(t => `${t.name} — ${t.latestAvg}`).join(", ")}. ${stemSubjects[0].latestAvg >= 8.5 ? "Хорошая база для инженерного или IT направления." : "Есть куда расти — подтяни базу и будут варианты."} Из мероприятий рекомендую: ${matchedItems.filter(i => i.tags?.includes("#STEM") || i.tags?.includes("#IT")).slice(0, 1).map(i => `"${i.title}"`)[0] || "следи за хакатонами и олимпиадами"}.`;
+    }
+  }
+
+  // Оценки / успеваемость
+  if (/оценк|успеваем|балл|четверт|сор|соч|итог/.test(msg)) {
     const parts = [];
-    if (green.length) parts.push(`Сильные предметы: ${green.slice(0, 3).map(t => `${t.name} (${t.latestAvg})`).join(", ")}.`);
-    if (red.length) parts.push(`Снижение по ${red.map(t => `${t.name} (${t.latestAvg ?? "н/д"})`).join(", ")} — здесь стоит уделить внимание.`);
-    parts.push("По какому предмету ощущаешь наибольшую трудность?");
+    if (green.length) parts.push(`Лучшие предметы: ${green.slice(0, 3).map(t => `${t.name} (${t.latestAvg})`).join(", ")}.`);
+    if (red.length) parts.push(`Требуют внимания: ${red.map(t => `${t.name} (${t.latestAvg ?? "н/д"})`).join(", ")}.`);
+    parts.push("По какому предмету чувствуешь наибольшую трудность?");
     return parts.join(" ");
   }
-  if (msg.includes("профессия") || msg.includes("куда") || msg.includes("поступ") || msg.includes("карьер")) {
-    const careers = analysis.careers;
-    return `Исходя из твоих оценок, тебе подойдут направления: ${careers.slice(0, 4).join(", ")}. Хочешь разобрать какое-то конкретно?`;
+
+  // Мероприятия / олимпиады
+  if (/мероприяти|олимпиад|конкурс|хакатон|событи|участ/.test(msg)) {
+    const events = matchedItems.filter(i => i.kind === "event").slice(0, 2);
+    if (events.length) return `Подходящие мероприятия по твоим интересам: ${events.map(e => `"${e.title}" — ${e.date}`).join("; ")}. Стоит попробовать!`;
+    return "Следи за школьными объявлениями — там регулярно появляются олимпиады и конкурсы по твоим предметам.";
   }
-  if (msg.includes("мероприяти") || msg.includes("событи") || msg.includes("олимпиад")) {
-    const events = analysis.matchedItems.filter(i => i.kind === "event").slice(0, 2);
-    if (events.length) return `Из ближайших мероприятий по твоим интересам: ${events.map(e => `"${e.title}" (${e.date})`).join(", ")}. Советую обратить внимание.`;
+
+  // Советы по учёбе
+  if (/как учить|как запомн|как подготов|совет|помог|не понима|объясн/.test(msg)) {
+    return `Хороший вопрос. ${red.length ? `Начни с ${red[0].name} — там сейчас снижение, лучше не запускать.` : `У тебя нет критических проблем — сосредоточься на поддержании темпа.`} Попробуй метод интервальных повторений: разбирай материал небольшими блоками каждый день, а не всё перед СОР.`;
   }
-  return `Хороший вопрос. ${green.length ? `По твоим сильным предметам (${green[0].name}: ${green[0].latestAvg}) виден потенциал.` : ""} Уточни что именно тебя интересует — постараюсь помочь конкретнее.`;
+
+  // Если ничего не подошло — осмысленный дефолт
+  return `Смотрю твои данные: ${all.slice(0, 3).map(t => `${t.name} — ${t.latestAvg}`).join(", ")}. Задай вопрос по конкретному предмету, или спроси про профессии, мероприятия, или как подготовиться к СОР.`;
 }
 
 //ии
