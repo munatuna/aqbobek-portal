@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
@@ -7,7 +8,7 @@ const bilimpath = require("./bilimpath");
 const app = express();
 const PORT = 3001;
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "AIzaSyBymyFPiv9LB1K3kjzrY8KPEniBqX0YLVQ";
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 app.use(cors());
 app.use(express.json());

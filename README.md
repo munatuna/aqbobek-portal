@@ -29,14 +29,23 @@ git clone https://github.com/munatuna/aqbobek-portal.git
 cd aqbobek-portal
 ```
 
-**2. Запустить API сервер**
+**2. Настроить API ключ**
 ```bash
 cd aqbobek-api
+cp .env.example .env
+```
+Открыть `.env` и вставить свой ключ от Gemini (бесплатно: [aistudio.google.com](https://aistudio.google.com)):
+```
+GEMINI_API_KEY=твой_ключ_сюда
+```
+
+**3. Запустить API сервер**
+```bash
 npm install
 node server.js
 ```
 
-**3. Запустить фронтенд** (в отдельном терминале)
+**4. Запустить фронтенд** (в отдельном терминале)
 ```bash
 cd ..
 npm install
@@ -44,6 +53,8 @@ npm run dev
 ```
 
 Открыть `http://localhost:5173`
+
+> Без ключа BilimPath работает в режиме fallback — отвечает на основе анализа оценок без Gemini.
 
 ## Демо-аккаунты
 
@@ -54,17 +65,6 @@ npm run dev
 | Родитель | parent@aqbobek.kz | demo |
 | Админ | admin@aqbobek.kz | demo |
 
-## API ключ Gemini
-
-Для работы AI-наставника добавь ключ в `aqbobek-api/server.js` строка 10:
-
-```js
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "ТВОЙ_КЛЮЧ";
-```
-
-Бесплатный ключ: [aistudio.google.com](https://aistudio.google.com).
-Без ключа BilimPath работает на основе анализа оценок без Gemini.
-
 ## Структура проекта
 
 ```
@@ -72,7 +72,8 @@ aqbobek-portal/
 ├── aqbobek-api/        # Express бэкенд
 │   ├── server.js       # API маршруты
 │   ├── bilimpath.js    # Логика AI-наставника
-│   └── db.json         # Данные (ученики, оценки, новости, мероприятия)
+│   ├── db.json         # Данные (ученики, оценки, новости, мероприятия)
+│   └── .env.example    # Шаблон для переменных окружения
 └── src/
     ├── pages/          # Дашборды по ролям
     ├── components/     # Layout, сайдбар
