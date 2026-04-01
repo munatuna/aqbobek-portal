@@ -8,7 +8,7 @@ const bilimpath = require("./bilimpath");
 const app = express();
 const PORT = 3001;
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY; // ключ удален
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 app.use(cors());
 app.use(express.json());
